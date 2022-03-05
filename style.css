@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  color: white;
+  font-size: 62px;
+  font-family: "Yomogi";
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+audio {
+  z-index: 100;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
